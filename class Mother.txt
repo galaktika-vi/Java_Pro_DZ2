@@ -1,0 +1,15 @@
+class Mother {
+
+}
+
+interface Father {
+    void fatherMethod();
+}
+
+class Child extends Mother implements Father {
+    // Реализация метода из интерфейса Father
+    @Override
+    public void fatherMethod() {
+        // код для метода fatherMethod
+    }
+}
